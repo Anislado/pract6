@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portada - Práctica 6</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 60px 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .logo {
+      width: 130px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .unam-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      margin: 5px 0;
+    }
+
+    .practice {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .practice-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .students {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .students-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .students-list {
+      font-size: 14px;
+      line-height: 1.8;
+      margin-top: 10px;
+    }
+
+    .group-semester {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 25px;
+      line-height: 1.8;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    @media print {
+      html, body {
+        width: 210mm;
+        height: 297mm;
+      }
+      .container {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img class="logo" src="escudoUNAM.png" alt="Escudo UNAM">
+      <div class="unam-title">Universidad Nacional Autónoma de México</div>
+      <div class="subtitle">Ingeniería en Computación</div>
+      <div class="subtitle">Redes de Computadoras (L)</div>
+    </div>
+
+    <div class="practice">
+      <div class="practice-title">PRACTICA 6. Servidor Web y Netstat</div>
+    </div>
+
+    <div class="students">
+      <div class="students-title">ALUMNO:</div>
+      <div class="students-list">
+        320065336<br>
+        320084562<br>
+        320342165<br>
+        423070635
+      </div>
+
+      <div class="group-semester">
+        <strong>Grupo:</strong> 8702<br>
+        <strong>Semestre:</strong> 26-I
+      </div>
+    </div>
+
+    <div class="footer">México, CDMX. Octubre 2025</div>
+  </div>
+</body>
+</html>
